@@ -11,7 +11,12 @@
 	Hello how are you
 	{{/english}}
 	{{^english}}
-	Hola, como esta!!!!!!
+		{{#mandarin}}
+			ni hao ma?
+		{{/mandarin}}
+		{{^ mandarin}}
+			Hola, como esta!!!!!!
+		{{/mandarin}}
 	{{/english}}
 </body>
 
