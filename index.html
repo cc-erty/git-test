@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Languanges!</title>
 </head>
 
 <body>
@@ -11,8 +11,14 @@
 	Hello how are you
 	{{/english}}
 	{{^english}}
-	Hola, como esta!!!!!!
+		{{#french}}
+		bonjour! como tale vu?
+		{{/french}}
+		{{^french}}
+		Hola, como esta!!!!!!
+		{{/french}}
 	{{/english}}
+
 </body>
 
 </html>
